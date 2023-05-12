@@ -11,10 +11,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
-import androidx.compose.material.OutlinedTextField
-import androidx.compose.material.Surface
 import androidx.compose.material.Text
-import androidx.compose.material.TextFieldDefaults
 import androidx.compose.runtime.*
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
@@ -82,7 +79,6 @@ fun CustomTextField(
 
     val calculatedWidth = remember { mutableStateOf(0) }
     val calculatedHeight = remember { mutableStateOf(0) }
-
 
     val paddingWidthPx = with(LocalDensity.current) { paddingWidth.toPx().roundToInt() }
     val calculatedWidthPx = calculatedWidth.value
