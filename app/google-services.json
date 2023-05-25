@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "228801584621",
+    "project_id": "dynamicinputfields",
+    "storage_bucket": "dynamicinputfields.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228801584621:android:45885159c12fe2a9091be4",
+        "android_client_info": {
+          "package_name": "com.irynaengels.dymanictextfieldproperties"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228801584621-7r86lclod3jg7luh17prj5nd4uvpk7f1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1siI5iT7z21fBsBge1uWjqMr0rU5k9Ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228801584621-7r86lclod3jg7luh17prj5nd4uvpk7f1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
